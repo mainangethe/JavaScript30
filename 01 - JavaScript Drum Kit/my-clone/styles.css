@@ -1,0 +1,88 @@
+html {
+  font-size: 10px;
+  height: 100%;
+  background-image:
+    linear-gradient(black, black),
+    url(https://source.unsplash.com/user/truth_from_africa_photography/1920x1080);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: saturation;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.key {
+  width: 10rem;
+  background: hsla(0, 0%, 0%, 0.4);
+  margin: 1rem;
+  padding: 1rem .5rem;
+  border: .4rem solid black;
+  border-radius: .5rem;
+  font-size: 1.5rem;
+  text-align: center;
+  text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+}
+
+a {
+  display: inline-block;
+  border-radius: 3px;
+  position: absolute;
+  height: 20px;
+  top: 95%;
+  right: 1%;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding:4px 6px;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    'San Francisco',
+    'Helvetica Neue',
+    Helvetica,
+    Ubuntu,
+    Roboto,
+    Noto,
+    'Segoe UI',
+    Arial,
+    sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.unsplash-logo, .link-text {
+  display: inline-block;
+  padding: 2px 3px;
+}
